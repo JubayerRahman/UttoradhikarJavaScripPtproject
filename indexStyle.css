@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkslategray;
+    color: rgb(255, 255, 255);
+}
+p{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: darkslategray;
+    padding: 20px;
+}
+
+button{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    animation: alternate;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}

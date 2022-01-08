@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formPage.css">
+    <title>Form Page</title>
+</head>
+<body>
+    <h1>Select all the family memebers:</h1>
+    <form>
+    <table>
+    <tr>
+    <td><label for="">Husband:</label></td>
+    <td><input id="husbandNum" type="number" value="0"></td>
+    </tr>
+    <tr>
+    <td><label for="">Son:</label></td>
+    <td><input id="sonNum" type="number" value="0"></td>
+    </tr>
+    <tr>
+    <td><label for="">Daughter:</label></td>
+    <td><input id="doughterNum" type="number" value="0"></td>
+    </tr>
+    </table>
+    </form>
+    <form>
+        <h1>Enter the amoint of your property:</h1>
+        <br>
+    <table>
+    <tr>
+    <td><label for="">Land:</label></td>
+    <td><input id="landArea" type="number"></td>
+    </tr>
+    <tr>
+    <td><label for="">Gold <br>(troy=31.10grams):</label></td>
+    <td><input id="gold" type="number"></td>
+    </tr>
+    <tr>
+    <td><label for="">Money:</label></td>
+    <td><input id="money" type="number"></td>
+    </tr>
+    </table>
+    </form>
+    <br>
+    <button id="submit">Divide</button>
+    <br><br>
+    <table border="1px" id="result">
+        <tr>
+            <th>Name</th>
+            <th>Land</th>
+            <th>Gold</th>
+            <th>Money</th>
+        </tr>
+        <tr>
+            <td>Husband</td>
+            <td id="wifeLand"></td>
+            <td id="wifeGold"></td>
+            <td id="wifeMoney"></td>
+        </tr>
+        <tr>
+            <td>Son's</td>
+            <td id="sonLand"></td>
+            <td id="sonGold"></td>
+            <td id="sonMoney"></td>
+        </tr>
+        <tr>
+            <td>Daughter's</td>
+            <td id="daughterLand"></td>
+            <td id="daughterGold"></td>
+            <td id="daughterMoney"></td>
+        </tr>
+    </table>
+    <!-- JS scriptlinked -->
+    <script src="./formula2.js"></script>
+</body>
+</html>
